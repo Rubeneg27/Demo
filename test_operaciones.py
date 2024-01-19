@@ -30,9 +30,7 @@ class testDividir(unittest.TestCase):
         self.assertEqual(div(-6,3),-2)
         self.assertEqual(div(6,-3),-2)
         self.assertEqual(div(-6,-3),2)
-        self.assertEqual(div(6,3),6)
-        self.assertEqual(div(6,0),)
-
+        self.assertEqual(div(6,3),2)
     def test_dividir_por_cero(self):
         with self.assertRaises(ZeroDivisionError):
             div(6, 0)
