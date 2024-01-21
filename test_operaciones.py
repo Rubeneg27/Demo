@@ -19,7 +19,7 @@ class testResta(unittest.TestCase):
 
 class testMultiplicar(unittest.TestCase):
     def test_multiplicar(self):
-        self.assertEqual(mult(2,3),6)
+        self.assertEqual(mult(5,3),15)
         self.assertEqual(mult(-2,3),-6)
         self.assertEqual(mult(2,-3),-6)
         self.assertEqual(mult(-2,-3),6)
